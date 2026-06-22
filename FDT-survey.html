@@ -263,8 +263,11 @@
   }
 
   .choice-row{ display: flex; flex-direction: column; gap: var(--space-1); }
+  .choice-row > div{ display: block; }
   .choice-row input{ display: none; }
   .choice-row label{
+    display: block;
+    width: 100%;
     border: 1px solid var(--paper-dim);
     border-radius: var(--radius-xs);
     padding: 13px 16px;
